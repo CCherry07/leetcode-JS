@@ -12,12 +12,9 @@
         // 在map里寻找，是否有以nums[i]为key的
         // 如果有就输出[numMap.get[nums[i]],i]
         // 此时 numMap.get[nums[i]] 是nums[i]的正确索引 , i为find的正确索引
+            if (numMap.has(nums[i])) return [numMap.get(nums[i]),i]
         // 如果没有保存 find , 以及nums[i] 的索引
-            if (numMap.has(nums[i])) {
-              return [numMap.get(nums[i]),i]
-            }else{
-              numMap.set(find,i)
-            }
+            numMap.set(find,i)
     } 
 };
 
