@@ -19,6 +19,7 @@ function bubbleSort(arr){
     if (!flag) return arr
   }
 }
+
 // testCase
 let arr1 = [78,98,90,12,34,55]
 let arr2=[1,7,6,4,90,45,78,34]
