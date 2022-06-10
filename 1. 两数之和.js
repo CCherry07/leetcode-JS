@@ -19,7 +19,6 @@
               numMap.set(find,i)
             }
     } 
-    console.log(numMap);
 };
 
 let nums = [2,7,11,15], target = 9
