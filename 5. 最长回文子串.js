@@ -25,9 +25,9 @@
   }
 
   for (let i = 0; i < s.length; i++) {
-    //奇数对的情况
+    // 奇数个的情况
     expandAroundCenter(i-1,i+1)
-    // 偶数对的情况
+    // 偶数个的情况
     expandAroundCenter(i,i+1)
   }
   return s.substring(start,start+maxlen)
