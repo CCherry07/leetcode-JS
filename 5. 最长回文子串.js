@@ -26,3 +26,8 @@
   }
   return s.substring(start,start+maxlen)
 };
+
+// testCase
+let s = "babad"
+console.log(longestPalindrome(s)) // bab
+
